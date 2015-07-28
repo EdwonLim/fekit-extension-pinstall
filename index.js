@@ -4,7 +4,7 @@ var fs = require('fs'),
     ignore = require('ignore'),
     execSync = require('child_process').execSync;
 
-exports.usage = '通过git安装fekit module';
+exports.usage = '通过本地路径安装fekit module';
 
 exports.set_options = function(optimist) {
     return optimist;
